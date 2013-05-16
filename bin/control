@@ -69,7 +69,7 @@ killtree() {
 function ishttpup() {
 
     let count=0
-    while [ ${count} -lt 30 ]
+    while [ ${count} -lt 24 ]
     do
         if /usr/sbin/lsof -P -n -i "@${OPENSHIFT_TORQUEBOX_IP}:${OPENSHIFT_TORQUEBOX_HTTP_PORT}" | grep "(LISTEN)" > /dev/null; then
             echo "Found ${OPENSHIFT_TORQUEBOX_IP}:${OPENSHIFT_TORQUEBOX_HTTP_PORT} listening port"
@@ -81,7 +81,7 @@ function ishttpup() {
         sleep 2
     done
 
-    return 0
+    return 1
 }
 
 function build() {
