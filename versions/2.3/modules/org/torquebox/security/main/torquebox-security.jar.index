@@ -1,0 +1,13 @@
+
+org/torquebox/security/auth/as
+org/torquebox/security/auth
+META-INF/maven
+org
+META-INF
+META-INF/maven/org.torquebox/torquebox-security
+org/torquebox/security/as
+META-INF/maven/org.torquebox
+META-INF/services
+org/torquebox/security
+org/torquebox
+org/torquebox/security/auth/processors

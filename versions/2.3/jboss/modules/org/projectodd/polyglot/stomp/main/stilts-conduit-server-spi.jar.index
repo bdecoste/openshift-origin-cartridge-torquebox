@@ -1,0 +1,10 @@
+org/projectodd/stilts
+
+META-INF/maven
+org/projectodd/stilts/conduit
+META-INF/maven/org.projectodd.stilts/stilts-conduit-server-spi
+org/projectodd/stilts/conduit/spi
+META-INF/maven/org.projectodd.stilts
+org/projectodd
+org
+META-INF

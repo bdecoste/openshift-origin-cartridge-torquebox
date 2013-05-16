@@ -1,0 +1,15 @@
+
+org/projectodd/stilts
+org/projectodd/stilts/stomp/protocol/websocket/ietf08
+org/projectodd/stilts/stomp/protocol/websocket/ietf07
+META-INF/maven
+org/projectodd/stilts/stomp/protocol/websocket/ietf00
+org/projectodd/stilts/stomp/protocol/websocket/ietf17
+org
+org/projectodd
+META-INF
+org/projectodd/stilts/stomp/protocol
+org/projectodd/stilts/stomp/protocol/websocket
+META-INF/maven/org.projectodd.stilts
+META-INF/maven/org.projectodd.stilts/stilts-stomp-common
+org/projectodd/stilts/stomp

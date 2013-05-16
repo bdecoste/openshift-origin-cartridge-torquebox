@@ -1,0 +1,15 @@
+#!/bin/bash -eu
+
+case "$1" in
+  -v|--version)
+    version="$2"
+esac
+
+# Create additional directories required by TORQUEBOX
+mkdir -p ${OPENSHIFT_HOMEDIR}/.m2
+mkdir -p ${OPENSHIFT_TORQUEBOX_DIR}/{template,standalone/tmp,standalone/deployments,standalone/configuration,standalone/log,standalone/data,modules_ext/org,jruby,jboss}
+
+# Copy the version specific files up to torquebox directory
+cp -r ${OPENSHIFT_TORQUEBOX_DIR}/versions/${version}/standalone/configuration/* ${OPENSHIFT_TORQUEBOX_DIR}/standalone/configuration
+cp ${OPENSHIFT_TORQUEBOX_DIR}/versions/${version}/bin/* ${OPENSHIFT_TORQUEBOX_DIR}/bin
+cp -r ${OPENSHIFT_TORQUEBOX_DIR}/versions/${version}/modules/org/* ${OPENSHIFT_TORQUEBOX_DIR}/modules_ext/org

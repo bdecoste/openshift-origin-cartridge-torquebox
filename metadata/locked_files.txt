@@ -1,0 +1,6 @@
+metadata/
+env/
+env/OPENSHIFT_TORQUEBOX_LOG_DIR
+env/OPENSHIFT_TORQUEBOX_VERSION
+env/M2_HOME
+template/

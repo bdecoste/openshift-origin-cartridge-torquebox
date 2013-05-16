@@ -1,0 +1,13 @@
+
+org/torquebox/jobs/component/processors
+META-INF/maven
+org/torquebox/jobs/as
+META-INF/maven/org.torquebox/torquebox-jobs
+org
+META-INF
+META-INF/maven/org.torquebox
+org/torquebox/jobs
+META-INF/services
+org/torquebox
+org/torquebox/jobs/processors
+org/torquebox/jobs/component

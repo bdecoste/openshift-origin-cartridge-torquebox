@@ -1,0 +1,13 @@
+
+org/projectodd/stilts
+org/projectodd/stilts/stomplet/container
+META-INF/maven
+org
+org/projectodd
+META-INF
+org/projectodd/stilts/stomplet
+org/projectodd/stilts/stomplet/server
+META-INF/maven/org.projectodd.stilts/stilts-stomplet-server-core
+org/projectodd/stilts/stomplet/parser
+org/projectodd/stilts/stomplet/container/xa
+META-INF/maven/org.projectodd.stilts

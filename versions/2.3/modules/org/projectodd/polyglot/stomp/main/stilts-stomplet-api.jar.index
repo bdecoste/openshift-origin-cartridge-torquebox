@@ -1,0 +1,11 @@
+org/projectodd/stilts/stomplet/helpers
+org/projectodd/stilts
+
+META-INF/maven
+META-INF/maven/org.projectodd.stilts
+org/projectodd/stilts/stomplet/simple
+org/projectodd
+org
+org/projectodd/stilts/stomplet
+META-INF
+META-INF/maven/org.projectodd.stilts/stilts-stomplet-api

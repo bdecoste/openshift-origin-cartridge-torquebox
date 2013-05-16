@@ -1,0 +1,12 @@
+
+META-INF/maven/org.torquebox/torquebox-cdi
+org/torquebox/cdi/processors
+META-INF/maven/org.torquebox
+org/torquebox/cdi/as
+META-INF/maven
+META-INF/services
+org/torquebox
+org
+org/torquebox/cdi/injection
+META-INF
+org/torquebox/cdi

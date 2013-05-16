@@ -1,0 +1,11 @@
+org/projectodd/stilts
+
+META-INF/maven
+META-INF/maven/org.projectodd.stilts/stilts-conduit-server-core
+org/projectodd/stilts/conduit/stomp
+org/projectodd/stilts/conduit
+META-INF/maven/org.projectodd.stilts
+org/projectodd
+org
+META-INF
+org/projectodd/stilts/conduit/xa

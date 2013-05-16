@@ -1,0 +1,10 @@
+org/projectodd/stilts
+
+META-INF/maven
+META-INF/maven/org.projectodd.stilts/stilts-stomp-server-spi
+META-INF/maven/org.projectodd.stilts
+org/projectodd/stilts/stomp/spi
+org/projectodd
+org
+META-INF
+org/projectodd/stilts/stomp

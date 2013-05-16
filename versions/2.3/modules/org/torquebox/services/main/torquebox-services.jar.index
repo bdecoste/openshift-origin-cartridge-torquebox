@@ -1,0 +1,14 @@
+
+META-INF/maven
+org/torquebox/services/processors
+org/torquebox/services/component
+org
+META-INF
+org/torquebox/services/component/processors
+org/torquebox/services
+META-INF/maven/org.torquebox
+META-INF/services
+META-INF/maven/org.torquebox/torquebox-services
+org/torquebox
+org/torquebox/services/injection
+org/torquebox/services/as
