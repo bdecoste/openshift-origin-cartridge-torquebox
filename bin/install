@@ -12,6 +12,7 @@ ln -s ${OPENSHIFT_TORQUEBOX_DIR}/standalone/log ${OPENSHIFT_TORQUEBOX_DIR}/logs
 shopt -s dotglob
 cp -r ${OPENSHIFT_TORQUEBOX_DIR}/versions/${version}/template/* ${OPENSHIFT_TORQUEBOX_DIR}/template
 mv ${OPENSHIFT_TORQUEBOX_DIR}/versions/${version}/jruby/* ${OPENSHIFT_TORQUEBOX_DIR}/jruby
+mv ${OPENSHIFT_TORQUEBOX_DIR}/versions/${version}/share/* ${OPENSHIFT_TORQUEBOX_DIR}/share
 mv ${OPENSHIFT_TORQUEBOX_DIR}/versions/${version}/jboss/modules ${OPENSHIFT_TORQUEBOX_DIR}/jboss
 mv ${OPENSHIFT_TORQUEBOX_DIR}/versions/${version}/jboss/jboss-modules.jar ${OPENSHIFT_TORQUEBOX_DIR}/jboss
 cp ${OPENSHIFT_TORQUEBOX_DIR}/standalone/configuration/standalone.xml ${OPENSHIFT_TORQUEBOX_DIR}/template/.openshift/config
