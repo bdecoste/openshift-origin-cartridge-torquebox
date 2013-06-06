@@ -12,9 +12,6 @@ Source-Url: https://github.com/bdecoste/openshift-origin-cartridge-torquebox.git
 Categories:
   - service
   - web_framework
-  - java
-  - jboss
-  - jee_full_profile
 Website: http://www.jboss.org
 Help-Topics:
   "Developer Center": https://www.openshift.com/developers
