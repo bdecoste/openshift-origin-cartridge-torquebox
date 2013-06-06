@@ -17,10 +17,6 @@ mv ${OPENSHIFT_TORQUEBOX_DIR}/versions/${version}/jboss/modules ${OPENSHIFT_TORQ
 mv ${OPENSHIFT_TORQUEBOX_DIR}/versions/${version}/jboss/jboss-modules.jar ${OPENSHIFT_TORQUEBOX_DIR}/jboss
 cp ${OPENSHIFT_TORQUEBOX_DIR}/standalone/configuration/standalone.xml ${OPENSHIFT_TORQUEBOX_DIR}/template/.openshift/config
 
-pushd $OPENSHIFT_TORQUEBOX_DIR/template/src/main/webapp
-  jar cvf $OPENSHIFT_TORQUEBOX_DIR/standalone/deployments/ROOT.war ./*
-popd
-
 JBOSS_HOME=${OPENSHIFT_TORQUEBOX_DIR}/jboss
 pushd $OPENSHIFT_TORQUEBOX_DIR > /dev/null
   ln -s ${JBOSS_HOME}/jboss-modules.jar
