@@ -1,0 +1,19 @@
+export TORQUEBOX_HOME=${OPENSHIFT_HOMEDIR}/torquebox
+export JBOSS_HOME=${OPENSHIFT_HOMEDIR}/torquebox
+
+if [ ! -d "${OPENSHIFT_DATA_DIR}/trqbox-demo" ]; then
+  pushd ${OPENSHIFT_DATA_DIR}
+    git clone https://github.com/softwaremill/trqbox-demo.git
+    $TORQUEBOX_HOME/jruby/bin/jruby -S gem install rails
+    mkdir -p trqbox-demo-frontend/rails
+    $TORQUEBOX_HOME/jruby/bin/jruby -S rails new trqbox-demo-frontend -m $TORQUEBOX_HOME/share/rails/template.rb
+  popd
+
+  pushd ${OPENSHIFT_DATA_DIR}/trqbox-demo-frontend
+    $TORQUEBOX_HOME/jruby/bin/jruby -S bundle install
+  popd
+fi
+
+pushd ${OPENSHIFT_DATA_DIR}/trqbox-demo-frontend
+  $TORQUEBOX_HOME/jruby/bin/jruby -S rake torquebox:deploy
+popd
